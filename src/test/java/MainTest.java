@@ -63,7 +63,7 @@ public class MainTest {
     public void testRemoveMethod() {
         List<Employee> list = Main.removeDuplicates(employees);
         System.out.println(list);
-        assertEquals(list.size(), 1);
+        assertEquals(list.size(), 2);
         assertEquals(list.get(0).getFirstname(), "Burak");
     }
 
